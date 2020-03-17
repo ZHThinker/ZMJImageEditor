@@ -10,7 +10,6 @@
 #import "WBGChatMacros.h"
 
 @interface WBGPath()
-@property (nonatomic, strong) UIBezierPath *bezierPath;
 @property (nonatomic, assign) CGPoint beginPoint;
 @property (nonatomic, assign) CGFloat pathWidth;
 @property (nonatomic, strong) NSMutableArray<NSValue *> *pointArray;
@@ -90,6 +89,13 @@
 {
     [self.pathColor set];
     [self.bezierPath stroke];
+    
+    if (self.isSelected) {
+        UIBezierPath *path = self.bezierPath.copy;
+        [[UIColor whiteColor] set];
+        path.lineWidth = 1;
+        [path stroke];
+    }
 }
 
 @end

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -81,17 +79,6 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <viewLayoutGuide key="safeArea" id="oC4-nx-BHL"/>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="gradientOn" value="YES"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="gradientColors" value="000000:0,000000:0.3"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="gradientLocations" value="0,1"/>
-                                <userDefinedRuntimeAttribute type="point" keyPath="gradientStartPoint">
-                                    <point key="value" x="0.5" y="0.0"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="point" keyPath="gradientEndPoint">
-                                    <point key="value" x="0.5" y="1"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKW-ZA-nXo">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
@@ -133,17 +120,6 @@
                                 <constraint firstItem="yeV-aj-vVt" firstAttribute="top" secondItem="vKW-ZA-nXo" secondAttribute="top" constant="10" id="pfe-2S-gEu"/>
                                 <constraint firstItem="U1E-fP-iEK" firstAttribute="leading" secondItem="vKW-ZA-nXo" secondAttribute="leading" constant="16" id="y3F-Y8-nR6"/>
                             </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="gradientOn" value="YES"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="gradientColors" value="000000:0.2,000000:0"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="gradientLocations" value="0,1"/>
-                                <userDefinedRuntimeAttribute type="point" keyPath="gradientStartPoint">
-                                    <point key="value" x="0.5" y="0.0"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="point" keyPath="gradientEndPoint">
-                                    <point key="value" x="0.5" y="1"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
                         </view>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
